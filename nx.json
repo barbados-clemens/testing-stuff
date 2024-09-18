@@ -1,0 +1,10 @@
+{
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "namedInputs": {
+    "default": ["{projectRoot}/**/*", "sharedGlobals"],
+    "production": ["default"],
+    "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
+  },
+  "nxCloudUrl": "https://staging.nx.app",
+  "nxCloudId": "66ead597c1d93c4597e278c2"
+}
